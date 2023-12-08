@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+form {
+    padding: 40px;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(225, 218, 218);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+
+}
+
+.formGroup input {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    color: #333;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.formGroup input:focus {
+    outline: 0;
+
+}
+
+input.name {
+    border-color: rgb(255, 0, 0);
+}
+
+button {
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0;
+    background-color: rgb(216, 130, 16);
+}
+
+.hidden {
+    display: none;
+
+}
+
+.errorHint {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    border-color: green;
+}
+
+.thankyou {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 300px;
+    margin: 150px 150px;
+    color: white;
+    background-color: rgb(0, 7, 12);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(216, 130, 16);
+}
+
+.thankyou i {
+    border: 5px solid rgb(19, 250, 19);
+    padding: 10px 10px;
+    border-radius: 50%;
+margin-bottom: 20px;
+}
